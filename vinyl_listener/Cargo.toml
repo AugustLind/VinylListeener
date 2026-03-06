@@ -1,0 +1,11 @@
+[package]
+name = "vinyl_listener"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# For generating the fingerprint
+rusty-chromaprint = "0.3.0"
+# For decoding audio (e.g., MP3/WAV)
+symphonia = { version = "0.5.5", features = ["all"] }
